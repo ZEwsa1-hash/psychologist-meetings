@@ -1459,12 +1459,14 @@ html, body {
   left: 0 !important;
   right: 0 !important;
   width: 100% !important;
+  aspect-ratio: 1 / 1 !important;
   border-radius: 28px 28px 0 0 !important;
   overflow: hidden !important;
+  background: #f3e2d6 !important;
 }
 .signup-decor img {
   width: 100% !important;
-  height: auto !important;
+  height: 100% !important;
   display: block !important;
   object-fit: cover !important;
   object-position: center center !important;
@@ -1769,7 +1771,7 @@ html, body {
 <p aria-live="polite" class="form-message" role="status"></p>
 </form>
 <div aria-hidden="true" class="signup-decor">
-<img alt="" decoding="async" loading="lazy" src="assets/signup-decor-4k-no-text.png"/>
+<img alt="" decoding="async" fetchpriority="low" height="860" loading="eager" src="assets/signup-decor.webp" width="860"/>
 </div>
 </section>
 </main>
